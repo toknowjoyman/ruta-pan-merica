@@ -1,16 +1,18 @@
-https://github.com/toknowjoyman/ruta-panomerica/edit/master/README.md
+https://github.com/toknowjoyman/ruta-panomerica
+
 # ruta-panomerica
 Provides another visual interface for the dataset hosted on scenicroute.info
 
 ________________________________________________________________________________
 Project Report
 -----------------
+----------
 rutascenic is an application that allows users to find scenic route alternatives to their journey.
 it currently works with the dataset of 850 designated scenic routes in US (federal and state). maintained on scenicbyways.info and presents it to the user as selectable paths on a map, to plan road-trips in a simple and speedy application.
 It allows users to plan a trip, select and see pictures of nearby scenic routes, add the route to the trip or annotate it.
 It can export to a file that can be opened on mobile mapping applications ~~ or to a printable markdown of the route~~.
 
-Extended Use-Case:
+### Extended Use-Case:
 -------------------
 __Need__: Leela loves to go on road-trips and believes the journey is more important than the destination. She prefers scenic routes instead of highways and likes to discover new routes between destinations.
 She likes to plan her route with a computer at home and then carry it with her on the phone, and keep a paper copy just in case.
