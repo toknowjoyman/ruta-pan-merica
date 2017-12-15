@@ -1,16 +1,32 @@
 # ruta-panomerica
-Provides a visual interface for the database hosted on scenicroute.info
-
+Provides another visual interface for the dataset hosted on scenicroute.info
 
 ________________________________________________________________________________
-rutascenic documentation
-========================
-
 Description
 -----------------
 rutascenic is an application that allows users to find scenic route alternatives
 to their journey.
-it currently works with the dataset of 850 designated scenic routes in US (federal and state)
+it currently works with the dataset of 850 designated scenic routes in US (federal and state). maintained on scenicbyways.info and presents it to the user as selectable paths on a map, to plan road-trips in a simple and speedy application. 
+It allows users to plan a trip, select and see pictures of nearby scenic routes, add the route to the trip or annotate it.
+It can export to a file that can be opened on mobile mapping applications or to a printable markdown of the route.
+
+Extended Use-Case:
+
+Need: Leela loves to go on road-trips and believes the journey is more important than the destination. She prefers scenic routes instead of highways and likes to discover new routes between destinations. 
+She likes to plan her route with a computer at home and then carry it with her on the phone, and keep a paper copy just in case. 
+
+Problem: Currently Leela uses two different approaches depending on the scale of her trip. 
+For longer trips she uses a comprehensive road-trip planning web-application, Furkot, that is complex, has more features than she needs and can be cumbersome on slower internet connections.
+For shorter trips, she uses a combination of Google Maps and internet research. She opens multiple tabs and create routes from scratch. Sometimes making notes on paper, sometimes on her computer. 
+
+Solution: She wants a simple, single application she can use to find the scenic routes along the trip she is planning and she also wants to keep a record of the roads she’s driven on and what she liked about them, so she can review whether to use them again. She wants to export the route to her phone and she wants a print out. ‘Ruta Panomerica’ serves her purpose well.
+
+Action: Leela opens the application on her laptop computer and is presented with a map centered on her location and textbox to enter a destination. She is then presented with the quickest route to her destination, and the scenic routes in her view are highlighted. She can click a scenic route to get more information– photos, notes, times and distances. She likes what she sees and adds the route to her trip. The application then includes the scenic route in the path displayed. She is able to add another destination and repeat the process. She can name and save the trip, or close the application and come back to the working copy. She can then export a copy of the trip to open on her Navigation app while driving, and keep a print out of it in the mapbox.
+
+
+Documentation
+========================
+
 
 
 Installation/Libraries
@@ -26,16 +42,16 @@ Run rutascenic.py
 
 Program Structure
 -----------------
-# rutascenic.py
+### rutascenic.py
 - QMainWindow
 - QWebEngineView
 - Graphopper API requests
 - StreetView API requests
 
-# scenicroutemodel.py
+### scenicroutemodel.py
 - Scenic Route DB
 
-## html/popup.js
+### html/popup.js
 - QtWebChannel interactive
 
 
