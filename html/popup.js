@@ -30,3 +30,4 @@ document.getElementById("MyBtn").addEventListener("click", function(){
     console.log("okay");
     jshelper.pathSelected(startLat, startLong, endLat, endLong, name, pathEncoded);
 });
+ 
