@@ -1,11 +1,10 @@
 # ruta-panomerica
 ![Home](all.png)
 
-Provides an interactive visual interface for the dataset hosted on scenicroute.info
 
 Description
 -----------------
-rutascenic is an application that allows users to find scenic route alternatives to their journey.
+rutascenic is a visual interactive interface for the dataset hosted on scenicroute.info that allows users to find scenic route alternatives to their journey.
 it currently works with the dataset of 850 designated scenic routes in US (federal and state). maintained on scenicbyways.info and presents it to the user as selectable paths on a map, to plan road-trips in a simple and speedy application.
 It allows users to plan a trip, select and see pictures of nearby scenic routes, add the route to the trip or annotate it.
 It can export to a file that can be opened on mobile mapping applications ~~ or to a printable markdown of the route~~.
@@ -96,6 +95,7 @@ Program Structure
 
 
 Copyright
+Vidit Manglani
 
 
 PyQt application
