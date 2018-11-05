@@ -1,6 +1,4 @@
 # ruta-panomerica
-![Home](all.png)
-
 an interactive interface for the dataset hosted on scenicroute.info
 
 Description
@@ -93,7 +91,7 @@ Program Structure
 - Onclick, access the dict where the routes notes are stored.
 - Save notes on editingFinished, save journey in a pickled list.
 
-
+![Home](all.png)
 
 Copyright
 Vidit Manglani
