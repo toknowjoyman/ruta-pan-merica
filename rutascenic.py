@@ -2,7 +2,7 @@
 # rutascenic.py
 # Vidit Joy Manglani
 # Contains main to run ruta scenica unpackaged
-##  and has all the Qtwidgets and Graphopper API requests
+##  and also has all the Qtwidgets and Graphopper API requests
 
 import sys
 import os
@@ -20,7 +20,7 @@ import urllib.request
 import requests
 
 import scenicRouteModel
-import FlickrRoute
+# import FlickrRoute
 
 import polyline
 import geocoder
@@ -227,9 +227,9 @@ class rutascenic(QMainWindow):
 
 # GEOCODER
     def gcTags(self):
-        try:
-            g = geocoder.google(self.og.text())
-            dg = geocoder.google(self.dt.text())
+        # try:
+            g = geocoder.osm(self.og.text())
+            dg = geocoder.osm(self.dt.text())
 
             self.startpoint.setText(self.og.text())
             self.startpoint.adjustSize()
@@ -242,10 +242,10 @@ class rutascenic(QMainWindow):
             self.searchQuickestRoute(str(self.home.latlng[0]),str(self.home.latlng[1]),
              str(dg.latlng[0]),str(dg.latlng[1]))
 
-        except: # PRINTS DEFAULT SCREEN WHEN LINEEDIT BUGS
-            self.view.load(QtCore.QUrl().fromLocalFile(
-                os.path.split(os.path.abspath(__file__))[0]+'/html/full.html'
-            ))
+        # except: # PRINTS DEFAULT SCREEN WHEN LINEEDIT BUGS
+        #     self.view.load(QtCore.QUrl().fromLocalFile(
+        #         os.path.split(os.path.abspath(__file__))[0]+'/html/full.html'
+        #     ))
 
     def addPathToRoute(self, startLat, startLong, endLat, endLong):
 

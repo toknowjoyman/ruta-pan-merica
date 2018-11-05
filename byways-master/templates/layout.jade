@@ -1,0 +1,43 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title
+      block title
+        = locals.siteTitle
+    block description
+      meta(name="description", content="#{locals.siteDescription}")
+    meta(name="msapplication-TileImage", content="/byways-white-144.png")
+    meta(name="msapplication-TileColor", content="#234F7F")
+    link(rel="dns-prefetch", href="//trips.furkot.com")
+    link(rel="dns-prefetch", href="//hogfish.code42day.com")
+    link(rel="dns-prefetch", href="//fonts.googleapis.com")
+    link(rel="dns-prefetch", href="//discus.com")
+    link(rel="dns-prefetch", href="//go.discus.com")
+    link(rel="dns-prefetch", href="//a.disquscdn.com")
+    link(rel="search", type="application/opensearchdescription+xml", href="/opensearch.xml", title="Scenic Byways")
+    link(rel='stylesheet', type='text/css', href='//fonts.googleapis.com/css?family=Arbutus+Slab|Capriola')
+    link(rel='stylesheet', type='text/css', href='/style/screen.css?v=#{package.version}')
+  body.top.bottom(data-gmap-key=locals.gmapKey)
+    header
+      a(href="/")
+        .bw-byways
+        h1= locals.title
+    #main
+      block body
+    footer
+      ul.flat-list
+        li
+          a(href="/about.html", rel="nofollow")
+            span.bw-byways
+            span About
+        li: a(href="https://trips.furkot.com", target="_blank", rel="nofollow") Plan trip with Furkot
+        li Powered by <a href="http://wintersmith.io" rel="nofollow" target="_blank">Wintersmith</a>
+        li.nosep: a.bw-github(href='http://github.com/melitele/byways', title='Fork us', target="_blank", rel="nofollow")
+        li: a.bw-mail(href='mailto:#{locals.email}' title='E-mail us')
+
+    block scripts
+      - var min = (env.mode == 'preview') ? '' : '.min'
+      script(src='https://cdn.polyfill.io/v2/polyfill#{min}.js?features=fetch', defer)
+      script(src='/scripts/index#{min}.js?v=#{package.version}', defer)
