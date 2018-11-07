@@ -6,17 +6,16 @@ It allows users to plan a trip, select and see pictures of nearby scenic routes,
 It can export to a file that can be opened on mobile mapping applications ~~ or to a printable markdown of the route~~.
 
 
+**Use Case**: Leela opens the application on her laptop computer and is presented with a map centered on her location and textbox to enter a destination. She is then presented with the quickest route to her destination, and the scenic routes in her view are highlighted. She can click a scenic route to get more information– streetviews, notes, times and distances. If she likes what she sees and she adds the route to her trip. The application then includes the scenic route in the path displayed. She is able to add another destination and repeat the process. She can name and save the trip, or close the application and come back to the working copy.
+
+
   
 <a href="url"><img src="SF2LV.png" align="left" height="45%" width="45%"> </a>
 
 <a href="url"><img src="mmm.png" align="right" height="45%" width="45%"> </a>
 
-
-
-**Use Case**: Leela opens the application on her laptop computer and is presented with a map centered on her location and textbox to enter a destination. She is then presented with the quickest route to her destination, and the scenic routes in her view are highlighted. She can click a scenic route to get more information– streetviews, notes, times and distances. If she likes what she sees and she adds the route to her trip. The application then includes the scenic route in the path displayed. She is able to add another destination and repeat the process. She can name and save the trip, or close the application and come back to the working copy.
-
-
 <a href="url"><img src="scenic.png" align="center" height="80%" width="80%"></a>
+
 
 
 ### User Needs Analysis 
