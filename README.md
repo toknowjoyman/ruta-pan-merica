@@ -15,9 +15,10 @@ It can export to a file that can be opened on mobile mapping applications ~~ or 
 
 <a href="url"><img src="mmm.png" align="right" height="45%" width="45%"> </a>
 
-<a href="url"><img src="scenic.png" align="right" height="80%" width="80%"></a>
+---
 
-
+<a href="url"><img src="scenic.png" align="right" height="80%" width="80%">
+</a>
 
 ---------------------
 
