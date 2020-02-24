@@ -575,7 +575,7 @@ component-closest@*:
 
 component-delegate@0.2.3:
   version "0.2.3"
-  resolved "http://registry.npmjs.org/component-delegate/-/component-delegate-0.2.3.tgz#523ec3a0538fdc85e25e9b4ae4c5e0606875f7fc"
+  resolved "https://registry.npmjs.org/component-delegate/-/component-delegate-0.2.3.tgz#523ec3a0538fdc85e25e9b4ae4c5e0606875f7fc"
   dependencies:
     component-closest "*"
     component-event "*"
@@ -590,7 +590,7 @@ component-event@*, component-event@0.1.4, component-event@~0:
 
 component-events@1.0.9:
   version "1.0.9"
-  resolved "http://registry.npmjs.org/component-events/-/component-events-1.0.9.tgz#cf784541272db71b5b231552df89d805eef62900"
+  resolved "https://registry.npmjs.org/component-events/-/component-events-1.0.9.tgz#cf784541272db71b5b231552df89d805eef62900"
   dependencies:
     component-delegate "0.2.3"
     component-event "0.1.4"
@@ -1439,7 +1439,7 @@ is-number@^2.0.2, is-number@^2.1.0:
 
 is-posix-bracket@^0.1.0:
   version "0.1.1"
-  resolved "http://registry.npmjs.org/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
+  resolved "https://registry.npmjs.org/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
 
 is-primitive@^2.0.0:
   version "2.0.0"
@@ -2628,8 +2628,8 @@ string_decoder@~0.10.0, string_decoder@~0.10.x:
   resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
 
 stringstream@~0.0.4:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.5.tgz#4e484cd4de5a0bbbee18e46307710a8a81621878"
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.6.tgz#7880225b0d4ad10e30927d167a1d6f2fd3b33a72"
 
 strip-ansi@^3.0.0, strip-ansi@^3.0.1, strip-ansi@~3.0.1:
   version "3.0.1"
@@ -2803,7 +2803,7 @@ umask@~1.1.0:
 
 umd@^3.0.0:
   version "3.0.1"
-  resolved "http://registry.npmjs.org/umd/-/umd-3.0.1.tgz#8ae556e11011f63c2596708a8837259f01b3d60e"
+  resolved "https://registry.npmjs.org/umd/-/umd-3.0.1.tgz#8ae556e11011f63c2596708a8837259f01b3d60e"
 
 unique-filename@~1.1.0:
   version "1.1.0"
