@@ -575,7 +575,7 @@ component-closest@*:
 
 component-delegate@0.2.3:
   version "0.2.3"
-  resolved "http://registry.npmjs.org/component-delegate/-/component-delegate-0.2.3.tgz#523ec3a0538fdc85e25e9b4ae4c5e0606875f7fc"
+  resolved "https://registry.npmjs.org/component-delegate/-/component-delegate-0.2.3.tgz#523ec3a0538fdc85e25e9b4ae4c5e0606875f7fc"
   dependencies:
     component-closest "*"
     component-event "*"
@@ -590,7 +590,7 @@ component-event@*, component-event@0.1.4, component-event@~0:
 
 component-events@1.0.9:
   version "1.0.9"
-  resolved "http://registry.npmjs.org/component-events/-/component-events-1.0.9.tgz#cf784541272db71b5b231552df89d805eef62900"
+  resolved "https://registry.npmjs.org/component-events/-/component-events-1.0.9.tgz#cf784541272db71b5b231552df89d805eef62900"
   dependencies:
     component-delegate "0.2.3"
     component-event "0.1.4"
@@ -1439,7 +1439,7 @@ is-number@^2.0.2, is-number@^2.1.0:
 
 is-posix-bracket@^0.1.0:
   version "0.1.1"
-  resolved "http://registry.npmjs.org/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
+  resolved "https://registry.npmjs.org/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
 
 is-primitive@^2.0.0:
   version "2.0.0"
@@ -1699,8 +1699,8 @@ lru-cache@2:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-2.7.3.tgz#6d4524e8b955f95d4f5b58851ce21dd72fb4e952"
 
 marked@~0.3.5:
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.6.tgz#b2c6c618fccece4ef86c4fc6cb8a7cbf5aeda8d7"
+  version "0.3.19"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.19.tgz#5d47f709c4c9fc3c216b6d46127280f40b39d790"
 
 micromatch@^2.1.5:
   version "2.3.11"
@@ -2803,7 +2803,7 @@ umask@~1.1.0:
 
 umd@^3.0.0:
   version "3.0.1"
-  resolved "http://registry.npmjs.org/umd/-/umd-3.0.1.tgz#8ae556e11011f63c2596708a8837259f01b3d60e"
+  resolved "https://registry.npmjs.org/umd/-/umd-3.0.1.tgz#8ae556e11011f63c2596708a8837259f01b3d60e"
 
 unique-filename@~1.1.0:
   version "1.1.0"
